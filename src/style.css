@@ -1,5 +1,49 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: blue;
+    background: green;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cartaPoker{
+    display: inline-block;
+    margin:auto;
+    border-radius: 15px;
+    height: 480px;
+    width: 300px;
+    background-color: white;
+}
+.paloArriba{
+    font-size: 3em;
+    padding-left: 3px;
+}
+.valorCentro{
+    font-size: 6em;
+    padding-top: 25%;
+    padding-left: 110px;
+}
+.paloAbajo{
+    font-size: 3em;
+    padding-right: 260px;
+    padding-top: 0px;
+    border-top-width: 30px;
+    padding-bottom: 120px;
+    display: inline-block;
+    transform: rotate(180deg);
+   
+}
+
+.btn{
+    width: 120px;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 50px;
+    
+}
+
+
